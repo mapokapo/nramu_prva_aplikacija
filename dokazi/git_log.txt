@@ -1,0 +1,10 @@
+7f20493 add doctor.txt
+f7d95e8 add personal info and custom change documentation to README.md
+98a1dbb add brojac.dart
+92d94ac make changes to Flutter screen
+a1f02a5 make first Flutter screen
+63ea99d make changes to provjera.dart
+c8b662d add Q&A to README.md
+992ad80 add provjera.dart
+2c51820 add Flutter app
+beb1bf8 initial commit
