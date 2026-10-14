@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: prva_aplikacija/.metadata
+  checksum: 0bf357e40dbba8652435d77e8261cd4de37e292ff0c1a70726c3c00cd6202516
+- filename: prva_aplikacija/android/app/build.gradle.kts
+  checksum: 68cd15cca322ebf594f4efcda3aafda39943717f927c4a7e8e6db4b9e3c15163
+- filename: prva_aplikacija/pubspec.lock
+  checksum: c4e4764459e6ef09f5a061b820f3f4d8e5a1396d4b3af9805c7bb542c44cdcdb
+version: "1.0"
