@@ -8,6 +8,7 @@ Verzija Fluttera: 3.47.7
 Verzija Darta: 3.13.5
 Koristeni uredjaji: Android mobitel i Google Chrome
 Provedene izmjene: dodan provjera.dart, napravljene izmjene u provjera.dart (stavio svoje ime itd.), modificiran main.dart u Flutter projektu (kopirano sa materijala), napravljene izmjene u main.dart (stavio svoje ime itd.), napravljen brojac.dart.
+Problemi: nije instaliran devtools za Flutter Linux (nije potrebno)
 
 ### Pitanja i odgovori
 
