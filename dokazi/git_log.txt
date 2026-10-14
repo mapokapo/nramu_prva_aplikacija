@@ -1,3 +1,7 @@
+daefaa8 small consistency fixes
+efb50fd fix README formatting
+237817b add screenshot (dokazi)
+2766f02 add git_log.txt (dokazi)
 7f20493 add doctor.txt
 f7d95e8 add personal info and custom change documentation to README.md
 98a1dbb add brojac.dart
