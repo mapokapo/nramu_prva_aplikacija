@@ -2,6 +2,13 @@
 
 ## Vjezba 1
 
+Ime i prezime: Leo Petrovic
+OS: Ubuntu 24.04 LTS
+Verzija Fluttera: 3.47.7
+Verzija Darta: 3.13.5
+Koristeni uredjaji: Android mobitel i Google Chrome
+Provedene izmjene: dodan provjera.dart, napravljene izmjene u provjera.dart (stavio svoje ime itd.), modificiran main.dart u Flutter projektu (kopirano sa materijala), napravljene izmjene u main.dart (stavio svoje ime itd.), napravljen brojac.dart.
+
 ### Pitanja i odgovori
 
 Pitanje: Zašto skup oznake ima dva elementa i zašto dohvat za Mia vraća zamjensku nulu?
