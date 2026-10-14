@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prva_aplikacija/brojac.dart';
 
 void main() => runApp(const MyApp());
 
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
               SizedBox(height: 12),
               Text('Dart i Flutter'),
               Text('Zelim nauciti Dart i Flutter'),
+              Brojac(),
             ],
           ),
         ),
