@@ -1,12 +1,12 @@
 // ignore_for_file: avoid_print, equal_elements_in_set
 
 void main() {
-  final ime = 'Ana';
+  final ime = 'Leo';
   int brojVjezbe = 1;
-  String? napomena;
-  final teme = <String>['Dart', 'Flutter', 'Git'];
+  String? napomena = 'Prvi samostalni rad';
+  final teme = <String>['Dart', 'Flutter', 'Git', 'Android'];
   final oznake = <String>{'novo', 'novo', 'vjezba'};
-  final bodovi = <String, int>{'Ana': 80, 'Ivan': 55};
+  final bodovi = <String, int>{'Leo': 80, 'Ivan': 55, 'Mia': 70};
 
   print('Student: $ime');
   print('Vjezba: $brojVjezbe');
@@ -19,6 +19,7 @@ void main() {
     const Zadatak(naslov: 'Instalacija', zavrsen: true),
     const Zadatak(naslov: 'Git'),
     const Zadatak(naslov: 'Dart'),
+    const Zadatak(naslov: 'Prvi commit', zavrsen: true),
   ];
 
   for (final z in zadaci) {
@@ -27,16 +28,15 @@ void main() {
 
   print('Otvorenih: ${brojOtvorenih(zadaci)}');
   print(prikazNapomene(napomena));
+  print(prikazNapomene("Prvi samostalni rad"));
+  print(prikazNapomene(null));
 }
 
 class Zadatak {
   final String naslov;
   final bool zavrsen;
 
-  const Zadatak({
-    required this.naslov,
-    this.zavrsen = false,
-  });
+  const Zadatak({required this.naslov, this.zavrsen = false});
 
   String oznaka() => zavrsen ? 'Gotovo' : 'U tijeku';
 }
@@ -44,5 +44,7 @@ class Zadatak {
 int brojOtvorenih(List<Zadatak> zadaci) =>
     zadaci.where((z) => !z.zavrsen).length;
 
-String prikazNapomene(String? napomena) =>
-    napomena ?? 'Bez napomene';
+String prikazNapomene(String? napomena) => napomena ?? 'Bez napomene';
+
+List<String> naslovi(List<Zadatak> zadaci) =>
+    zadaci.where((z) => !z.zavrsen).map((z) => z.naslov).toList();
