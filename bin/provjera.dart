@@ -28,6 +28,7 @@ void main() {
 
   print('Otvorenih: ${brojOtvorenih(zadaci)}');
   print(prikazNapomene(napomena));
+  print(naslovi(zadaci));
   print(prikazNapomene("Prvi samostalni rad"));
   print(prikazNapomene(null));
 }

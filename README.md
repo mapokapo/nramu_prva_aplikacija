@@ -20,7 +20,7 @@ Problemi: nije instaliran devtools za Flutter Linux (nije potrebno)
 
 Pitanje: Zašto skup oznake ima dva elementa i zašto dohvat za Mia vraća zamjensku nulu?
 
-Odgovor: skup izbaci sve duplicirane elemente, pa se jedan od elemenata 'novo' izbrise i krajnji skup je ('novo', 'vjezba'), sto su 2 elementa. Dohvat za "Mia" iz mape vraca `null`, no koristen je operator `??` (to je skracenica koja ce vratiti tu vrijednost ako nije null, a ako jeste null onda ce vratiti neku zamjensku vrijednost koja dolazi sa desne strane) sa zamjenskom vrijednoscu `0`, pa posto je vrijednost sa lijeve strane `null` ("Mia" ne postoji u mapi) onda cijeli izraz vraca `0`.
+Odgovor: skup izbaci sve duplicirane elemente, pa se jedan od elemenata 'novo' izbrise i krajnji skup je ('novo', 'vjezba'), sto su 2 elementa. Dohvat za "Mia" iz mape vraca `null`, no koristen je operator `??` (to je skracenica koja ce vratiti tu vrijednost ako nije null, a ako jeste null onda ce vratiti neku zamjensku vrijednost koja dolazi sa desne strane) sa zamjenskom vrijednoscu `0`, pa posto je vrijednost sa lijeve strane `null` ("Mia" ne postoji u mapi) onda cijeli izraz vraca `0`. Nakon izmjena je dodan kljuc "Mia" u mapu sa vrijednoscu 70, pa se rezultat 70 ispravno ispise.
 
 ---
 

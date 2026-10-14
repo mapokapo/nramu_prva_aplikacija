@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Brojac extends StatefulWidget {
-  const new({super.key});
+  const Brojac({super.key});
 
   @override
   State<Brojac> createState() => _BrojacState();
